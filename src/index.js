@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from "./Home"
+import Work from "./Work"
+import Contact from "./Contact"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home></Home>
+    <Work></Work>
+    <Contact></Contact>  
   </React.StrictMode>,
   document.getElementById('root')
 );
